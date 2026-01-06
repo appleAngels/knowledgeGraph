@@ -13,13 +13,15 @@ const NodeDetail = ({ node }) => {
         {node.type === 'word' && (
           <>
             {/* 一级标签：Animal */}
-            {['dog', 'cat', 'bird', 'turtle', 'bunny', 'mouse', 'goldfish', 'hamster', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep', 'elephant', 'lion', 'fish', 'frog'].includes(node.label.toLowerCase()) && <Tag color="red">Animal</Tag>}
+            {['dog', 'cat', 'bird', 'turtle', 'bunny', 'mouse', 'goldfish', 'hamster', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep', 'elephant', 'lion', 'fish', 'frog', 'zebra', 'ostrich', 'crocodile', 'giraffe'].includes(node.label.toLowerCase()) && <Tag color="red">Animal</Tag>}
             {/* 二级标签：Farm Animal */}
             {['dog', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep'].includes(node.label.toLowerCase()) && <Tag color="blue">Farm Animal</Tag>}
-            {/* 二级标签：Pets */}
-            {['dog', 'cat', 'bunny', 'mouse', 'goldfish', 'hamster'].includes(node.label.toLowerCase()) && <Tag color="blue">Pets</Tag>}
+            {/* 二级标签：Pet */}
+            {['dog', 'cat', 'bunny', 'mouse', 'goldfish', 'hamster'].includes(node.label.toLowerCase()) && <Tag color="blue">Pet</Tag>}
+            {/* 二级标签：Plains Animal（Plains单词除外） */}
+            {node.label.toLowerCase() !== 'plains' && ['elephant', 'zebra', 'ostrich', 'giraffe'].includes(node.label.toLowerCase()) && <Tag color="blue">Plains Animal</Tag>}
             {/* 非动物单词默认标签 */}
-            {!['dog', 'cat', 'bird', 'turtle', 'bunny', 'mouse', 'goldfish', 'hamster', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep', 'elephant', 'lion', 'fish', 'frog'].includes(node.label.toLowerCase()) && <Tag color="blue">Word</Tag>}
+            {!['dog', 'cat', 'bird', 'turtle', 'bunny', 'mouse', 'goldfish', 'hamster', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep', 'elephant', 'lion', 'fish', 'frog', 'zebra', 'ostrich', 'crocodile', 'giraffe'].includes(node.label.toLowerCase()) && <Tag color="blue">Word</Tag>}
           </>
         )}
         {node.type === 'sentence' && <Tag color="green">Sentence</Tag>}

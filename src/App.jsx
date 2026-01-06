@@ -37,10 +37,6 @@ function App() {
     setSelectedNode(node);
   };
 
-  const handleRelatedNodeClick = (node) => {
-    setSelectedNode(node);
-  };
-
   const handleAddContent = (newContent) => {
     const newId = Math.max(...graphData.nodes.map(node => node.id)) + 1;
     
@@ -104,7 +100,6 @@ function App() {
           ) : selectedNode ? (
             <NodeDetail 
               node={selectedNode} 
-              onRelatedNodeClick={handleRelatedNodeClick}
             />
           ) : (
             <div className="empty-state">

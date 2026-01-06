@@ -1,19 +1,27 @@
 import React from 'react';
-import { getRelatedNodes, getRelationship } from '../data';
-import { Card, Typography, Tag, Image, List } from 'antd';
+import { Card, Typography, Tag, Image, Space } from 'antd';
 
 const { Title, Paragraph } = Typography;
 
-const NodeDetail = ({ node, onRelatedNodeClick }) => {
+const NodeDetail = ({ node }) => {
   if (!node) return null;
-
-  const relatedNodes = getRelatedNodes(node.id);
 
   return (
     <div className="node-detail">
       <div className="node-header">
         <Title level={4}>{node.label}</Title>
-        {node.type === 'word' && <Tag color="blue">Word</Tag>}
+        {node.type === 'word' && (
+          <>
+            {/* 一级标签：Animal */}
+            {['dog', 'cat', 'bird', 'turtle', 'bunny', 'mouse', 'goldfish', 'hamster', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep', 'elephant', 'lion', 'fish', 'frog'].includes(node.label.toLowerCase()) && <Tag color="red">Animal</Tag>}
+            {/* 二级标签：Farm Animal */}
+            {['dog', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep'].includes(node.label.toLowerCase()) && <Tag color="blue">Farm Animal</Tag>}
+            {/* 二级标签：Pets */}
+            {['dog', 'cat', 'bunny', 'mouse', 'goldfish', 'hamster'].includes(node.label.toLowerCase()) && <Tag color="blue">Pets</Tag>}
+            {/* 非动物单词默认标签 */}
+            {!['dog', 'cat', 'bird', 'turtle', 'bunny', 'mouse', 'goldfish', 'hamster', 'duck', 'pig', 'cow', 'chicken', 'goat', 'sheep', 'elephant', 'lion', 'fish', 'frog'].includes(node.label.toLowerCase()) && <Tag color="blue">Word</Tag>}
+          </>
+        )}
         {node.type === 'sentence' && <Tag color="green">Sentence</Tag>}
       </div>
       
@@ -34,34 +42,17 @@ const NodeDetail = ({ node, onRelatedNodeClick }) => {
         </div>
       )}
       
-      {relatedNodes.length > 0 && (
-        <div className="related-nodes">
-          <Title level={5}>Related Content</Title>
-          <List
-            size="small"
-            dataSource={relatedNodes}
-            renderItem={relatedNode => {
-              const relationship = getRelationship(node.id, relatedNode.id);
-              return (
-                <List.Item 
-                  style={{ 
-                    cursor: 'pointer', 
-                    border: '1px solid #f0f0f0', 
-                    borderRadius: 4, 
-                    marginBottom: 8,
-                    padding: 12
-                  }}
-                  onClick={() => onRelatedNodeClick(relatedNode)}
-                >
-                  <List.Item.Meta
-                    title={relatedNode.label}
-                    description={relationship}
-                  />
-                </List.Item>
-              );
-            }}
-          />
-        </div>
+      {node.type === 'word' && node.sentences && node.sentences.length > 0 && (
+        <Card size="small" style={{ marginBottom: 16 }}>
+          <Title level={5}>Sentences</Title>
+          <Space orientation="vertical" style={{ width: '100%' }}>
+            {node.sentences.map((sentence, index) => (
+              <div key={index} style={{ borderBottom: '1px solid #f0f0f0', padding: 8 }}>
+                <Paragraph>{sentence}</Paragraph>
+              </div>
+            ))}
+          </Space>
+        </Card>
       )}
     </div>
   );

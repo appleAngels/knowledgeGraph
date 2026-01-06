@@ -90,6 +90,8 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  overflow-y: auto;
+  height: calc(100vh - 9rem);
 }
 
 .node-header {

@@ -70,7 +70,24 @@ export const knowledgeGraphData = {
     { id: 43, type: 'word', label: 'Bunny', definition: 'a small animal with long ears that hops and eats plants (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute bunny with long ears, simple style, friendly&image_size=square_hd', sentences: ['A bunny is a small mammal with long ears that hops and eats plants.', 'A bunny is the same as a rabbit.', 'A bunny has fur on its body, and a fish has scales.'] },
     { id: 44, type: 'word', label: 'Mouse', definition: 'a small mammal with a pointed nose and long, thin tail (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute mouse with pointed nose, simple style, friendly&image_size=square_hd', sentences: ['A mouse is a small mammal that looks like a baby rat.', 'A mouse is not the same as a rat, but they are cousins.', 'A mouse has fur on its body, and an owl has feathers.'] },
     { id: 45, type: 'word', label: 'Goldfish', definition: 'a small, orange fish that is often kept as a pet (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute goldfish swimming in bowl, simple style, friendly&image_size=square_hd', sentences: ['A goldfish is a small, orange fish.', 'My goldfish lives in a glass bowl.', 'A goldfish only needs food once a day.'] },
-    { id: 46, type: 'word', label: 'Hamster', definition: 'a small mammal with large cheek pouches that looks a little like a mouse (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute hamster with cheek pouches, simple style, friendly&image_size=square_hd', sentences: ['A hamster likes to eat vegetables.', 'A hamster\'s tail is shorter than a mouse\'s tail.', 'My hamster lives in a cage with a wheel.'] }
+    { id: 46, type: 'word', label: 'Hamster', definition: 'a small mammal with large cheek pouches that looks a little like a mouse (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute hamster with cheek pouches, simple style, friendly&image_size=square_hd', sentences: ['A hamster likes to eat vegetables.', 'A hamster\'s tail is shorter than a mouse\'s tail.', 'My hamster lives in a cage with a wheel.'] },
+    
+    // New vocabulary - Baby Animal
+    { id: 52, type: 'word', label: 'Kid', definition: 'a young goat (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute baby goat (kid) playing, simple style, friendly&image_size=square_hd', sentences: ['A kid is a young goat.', 'A female kid grows up to be a doe or a nanny goat.', 'A male kid grows up to be a buck or a billy goat.'] },
+    { id: 53, type: 'word', label: 'Puppy', definition: 'a young dog (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute puppy playing, simple style, friendly&image_size=square_hd', sentences: ['A puppy becomes a dog when it grows up.', 'A puppy, a kitten, a lamb, and a cub are all baby animals.', 'My puppy is not trained yet.'] },
+    { id: 54, type: 'word', label: 'Kitten', definition: 'a young cat (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Cute kitten playing, simple style, friendly&image_size=square_hd', sentences: ['A kitten is blind for the first week of its life.', 'A cat usually gives birth to more than one kitten.', 'A kitten will grow up to be a cat.'] },
+    // New vocabulary - Mammal
+    { id: 55, type: 'word', label: 'Mammal', definition: 'a warm-blooded vertebrate animal with hair or fur, typically giving birth to live young and feeding them with milk (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Assorted mammals including dog, cat, elephant, realistic, high quality&image_size=square_hd', sentences: ['A mammal is a warm-blooded animal with hair or fur.', 'Most mammals give birth to live young and feed them with milk.', 'Humans, dogs, and elephants are all mammals.'] },
+    
+    // New vocabulary - Mammal related
+    { id: 56, type: 'word', label: 'Warm blood', definition: 'having a body temperature that remains relatively constant regardless of the temperature of the surroundings (adjective)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Thermometer showing warm temperature, scientific, high quality&image_size=square_hd', sentences: ['Mammals are warm-blooded animals.', 'Warm-blooded animals can maintain a constant body temperature.', 'Birds are also warm-blooded creatures.'] },
+    { id: 57, type: 'word', label: 'Hair', definition: 'a thread-like growth that forms part of the coat of mammals (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Human hair strands close up, realistic, high quality&image_size=square_hd', sentences: ['Humans have hair on their heads.', 'Mammals have hair or fur covering their bodies.', 'Hair helps to keep mammals warm.'] },
+    { id: 58, type: 'word', label: 'Fur', definition: 'the thick hair covering the body of certain animals, especially mammals (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Soft animal fur texture, realistic, high quality&image_size=square_hd', sentences: ['Cats have soft fur.', 'Fur helps animals stay warm in cold weather.', 'Some mammals have thick fur for insulation.'] },
+    { id: 59, type: 'word', label: 'Birth', definition: 'the process of bringing forth young from the womb (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mother and newborn baby, tender moment, realistic, high quality&image_size=square_hd', sentences: ['Mammals give birth to live young.', 'The birth of a baby is a special moment.', 'Some animals lay eggs instead of giving birth.'] },
+    { id: 60, type: 'word', label: 'Milk', definition: 'a white liquid produced by female mammals for feeding their young (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Glass of fresh milk, white liquid, realistic, high quality&image_size=square_hd', sentences: ['Mammals feed their young with milk.', 'Cows produce milk for their calves.', 'Humans drink milk from cows, goats, and other animals.'] },
+    { id: 61, type: 'word', label: 'Young', definition: 'being in an early stage of life or growth (adjective)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Young animal babies, cute, realistic, high quality&image_size=square_hd', sentences: ['Mammals care for their young.', 'The young of a dog is called a puppy.', 'Young animals need special care and attention.'] },
+    { id: 62, type: 'word', label: 'Feed', definition: 'to give food to; supply with nourishment (verb)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mother feeding baby, nurturing, realistic, high quality&image_size=square_hd', sentences: ['Mammals feed their young with milk.', 'Farmers feed their animals every day.', 'Parents feed their children nutritious food.'] },
+    { id: 63, type: 'word', label: 'Human', definition: 'a member of the primate species Homo sapiens, characterized by bipedalism and large brains (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Diverse group of humans, realistic, high quality&image_size=square_hd', sentences: ['Humans are mammals.', 'Humans have the ability to think and reason.', 'Humans live in communities and build societies.'] }
   ],
   links: [
     // RAZ AA Level - Lesson 1: At the Lake relationships
@@ -170,7 +187,61 @@ export const knowledgeGraphData = {
     { source: 47, target: 26, relationship: 'is a type of' },
     { source: 48, target: 26, relationship: 'is a type of' },
     { source: 49, target: 26, relationship: 'is a type of' },
-    { source: 51, target: 26, relationship: 'is a type of' }
+    { source: 51, target: 26, relationship: 'is a type of' },
+    
+    // Baby animal relationships
+    { source: 52, target: 26, relationship: 'is a type of' },
+    { source: 53, target: 26, relationship: 'is a type of' },
+    { source: 54, target: 26, relationship: 'is a type of' },
+    
+    // Specific baby animal relationships
+    { source: 53, target: 10, relationship: 'is a young of' },
+    { source: 54, target: 11, relationship: 'is a young of' },
+    { source: 52, target: 41, relationship: 'is a young of' },
+    
+    // Mammal relationships
+    { source: 55, target: 26, relationship: 'is a type of' },
+    
+    // Mammal connections
+    { source: 10, target: 55, relationship: 'is a type of' },
+    { source: 11, target: 55, relationship: 'is a type of' },
+    { source: 27, target: 55, relationship: 'is a type of' },
+    { source: 47, target: 55, relationship: 'is a type of' },
+    { source: 51, target: 55, relationship: 'is a type of' },
+    { source: 38, target: 55, relationship: 'is a type of' },
+    { source: 39, target: 55, relationship: 'is a type of' },
+    { source: 41, target: 55, relationship: 'is a type of' },
+    { source: 42, target: 55, relationship: 'is a type of' },
+    { source: 43, target: 55, relationship: 'is a type of' },
+    { source: 44, target: 55, relationship: 'is a type of' },
+    { source: 46, target: 55, relationship: 'is a type of' },
+    { source: 52, target: 55, relationship: 'is a type of' },
+    { source: 53, target: 55, relationship: 'is a type of' },
+    { source: 54, target: 55, relationship: 'is a type of' },
+    
+    // Human connection to Mammal
+    { source: 63, target: 55, relationship: 'is a type of' },
+    
+    // Mammal attributes and related connections
+    { source: 55, target: 56, relationship: 'has' },
+    { source: 55, target: 57, relationship: 'has' },
+    { source: 55, target: 58, relationship: 'has' },
+    { source: 55, target: 59, relationship: 'does' },
+    { source: 55, target: 60, relationship: 'produces' },
+    { source: 55, target: 61, relationship: 'cares for' },
+    { source: 55, target: 62, relationship: 'does' },
+    
+    // Human specific connections
+    { source: 63, target: 57, relationship: 'has' },
+    
+    // Animal specific connections
+    { source: 10, target: 57, relationship: 'has' },
+    { source: 10, target: 58, relationship: 'has' },
+    { source: 11, target: 57, relationship: 'has' },
+    { source: 11, target: 58, relationship: 'has' },
+    { source: 27, target: 57, relationship: 'has' },
+    { source: 27, target: 58, relationship: 'has' },
+    { source: 39, target: 60, relationship: 'produces' }
   ]
 };
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import GraphVisualization from './components/GraphVisualization';
 import NodeDetail from './components/NodeDetail';
 import AddContent from './components/AddContent';
+import SearchBar from './components/SearchBar';
 import { knowledgeGraphData, getNodeById } from './data';
 import './App.css';
 import 'antd/dist/reset.css';
@@ -87,6 +88,10 @@ function App() {
             </Button>
           }
         >
+          <SearchBar 
+            nodes={graphData.nodes} 
+            onNodeSelect={handleNodeClick}
+          />
           <GraphVisualization 
             data={graphData} 
             onNodeClick={handleNodeClick}

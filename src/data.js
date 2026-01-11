@@ -160,7 +160,17 @@ export const knowledgeGraphData = {
     { id: 113, type: 'word', label: 'plane', definition: 'A toy aircraft.', image: 'https://picsum.photos/id/304/300/300', sentences: ['I fly the plane.'] },
     { id: 114, type: 'word', label: 'wagon', definition: 'A toy cart with four wheels that is pulled by a child.', image: 'https://picsum.photos/id/861/300/300', sentences: ['I pull the wagon.'] },
     { id: 115, type: 'word', label: 'kite', definition: 'A toy consisting of a light frame with thin material stretched over it, flown in the wind at the end of a long string.', image: 'https://picsum.photos/id/514/300/300', sentences: ['I fly the kite.'] },
-    { id: 116, type: 'word', label: 'robot', definition: 'A toy that can move and perform simple tasks when controlled.', image: 'https://picsum.photos/id/712/300/300', sentences: ['The robot moves.'] }
+    { id: 116, type: 'word', label: 'robot', definition: 'A toy that can move and perform simple tasks when controlled.', image: 'https://picsum.photos/id/712/300/300', sentences: ['The robot moves.'] },
+    
+    // Garden vocabulary
+    { id: 117, type: 'word', label: 'Garden', definition: 'A plot of land where plants, flowers, or vegetables are grown.', image: 'https://picsum.photos/id/432/300/300', sentences: ['I grow vegetables in the garden.'] },
+    { id: 118, type: 'word', label: 'Peas', definition: 'A round green seed that grows in a pod and is eaten as a vegetable.', image: 'https://picsum.photos/id/104/300/300', sentences: ['I eat peas from the garden.'] },
+    { id: 119, type: 'word', label: 'Beans', definition: 'The edible seed of various plants, typically kidney-shaped and growing in long pods.', image: 'https://picsum.photos/id/174/300/300', sentences: ['The beans grow on the vine.'] },
+    { id: 120, type: 'word', label: 'Melons', definition: 'A large round fruit with green skin, red pulp, and black seeds.', image: 'https://picsum.photos/id/102/300/300', sentences: ['I eat juicy melons from the garden.'] },
+    { id: 121, type: 'word', label: 'Onions', definition: 'A strong-smelling bulb that is used as a vegetable in cooking.', image: 'https://picsum.photos/id/114/300/300', sentences: ['The onions grow underground.'] },
+    { id: 122, type: 'word', label: 'Potatoes', definition: 'A starchy vegetable that grows underground and is used as food.', image: 'https://picsum.photos/id/127/300/300', sentences: ['I dig potatoes from the garden.'] },
+    { id: 123, type: 'word', label: 'Tomatoes', definition: 'A round red fruit with a juicy pulp, eaten as a vegetable.', image: 'https://picsum.photos/id/133/300/300', sentences: ['The tomatoes are red and ripe.'] },
+    { id: 124, type: 'word', label: 'Corn', definition: 'A tall plant grown for its large seeds, which are eaten as a vegetable or used to make flour.', image: 'https://picsum.photos/id/137/300/300', sentences: ['The corn grows tall in the garden.'] }
   ],
   links: [
     ...createLinks(1, [4, 5, 6, 7, 8, 37]),
@@ -255,7 +265,17 @@ export const knowledgeGraphData = {
     ...createLinks(113, [108]),
     ...createLinks(114, [108]),
     ...createLinks(115, [108]),
-    ...createLinks(116, [108])
+    ...createLinks(116, [108]),
+    
+    // Garden connections
+    ...createLinks(117, [118, 119, 120, 121, 122, 123, 124]),
+    ...createLinks(118, [19, 67]),
+    ...createLinks(119, [19, 67]),
+    ...createLinks(120, [19, 18, 67]),
+    ...createLinks(121, [19, 67]),
+    ...createLinks(122, [19, 67]),
+    ...createLinks(123, [19, 18, 67]),
+    ...createLinks(124, [19, 67])
   ]
 };
 

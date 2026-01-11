@@ -12,9 +12,9 @@ const AddContent = ({ onAddContent }) => {
       type: values.contentType,
       label: values.label,
       ...(values.contentType === 'word' && { definition: values.definition }),
-      ...(values.image && { image: values.image }),
-      relatedNodeId: values.relatedNodeId ? parseInt(values.relatedNodeId) : null,
-      relationship: values.relationship
+      // Generate default image if none provided
+      image: values.image || `https://neeko-copilot.bytedance.net/api/text2image?prompt=${encodeURIComponent(values.label)}+simple+style+friendly&image_size=square_hd`,
+      relatedNodeId: values.relatedNodeId ? parseInt(values.relatedNodeId) : null
     };
 
     onAddContent(newContent);
@@ -77,12 +77,7 @@ const AddContent = ({ onAddContent }) => {
           <Input type="number" placeholder="Enter related node ID (optional)" />
         </Form.Item>
 
-        <Form.Item 
-          name="relationship" 
-          label="Relationship"
-        >
-          <Input placeholder="Enter relationship (optional)" />
-        </Form.Item>
+
 
         <Form.Item>
           <Button type="primary" htmlType="submit" block>

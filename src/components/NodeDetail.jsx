@@ -37,16 +37,19 @@ const NodeDetail = ({ node }) => {
         </Card>
       )}
       
-      {node.image && (
-        <div className="node-image" style={{ marginBottom: 16 }}>
-          <Image 
-            src={node.image} 
-            alt={node.label} 
-            style={{ width: '100%' }} 
-            placeholder={true}
-          />
-        </div>
-      )}
+      <div className="node-image" style={{ marginBottom: 16 }}>
+        <Image 
+          src={node.image} 
+          alt={node.label} 
+          style={{ width: '100%', height: 'auto' }} 
+          placeholder={true}
+          fallback="https://via.placeholder.com/300x200?text=No+Image"
+          onError={(e) => {
+            console.error(`Failed to load image for ${node.label}: ${node.image}`);
+            e.target.src = 'https://via.placeholder.com/300x200?text=Image+Failed';
+          }}
+        />
+      </div>
       
       {node.type === 'word' && node.sentences && node.sentences.length > 0 && (
         <Card size="small" style={{ marginBottom: 16 }}>

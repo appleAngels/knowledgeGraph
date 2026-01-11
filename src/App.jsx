@@ -46,7 +46,8 @@ function App() {
       type: newContent.type,
       label: newContent.label,
       ...(newContent.definition && { definition: newContent.definition }),
-      ...(newContent.image && { image: newContent.image })
+      // Generate default image if none provided
+      image: newContent.image || `https://neeko-copilot.bytedance.net/api/text2image?prompt=${encodeURIComponent(newContent.label)}+simple+style+friendly&image_size=square_hd`
     };
 
     const newNodes = [...graphData.nodes, newNode];
@@ -55,8 +56,7 @@ function App() {
     if (newContent.relatedNodeId) {
       newLinks.push({
         source: newId,
-        target: newContent.relatedNodeId,
-        relationship: newContent.relationship || 'related to'
+        target: newContent.relatedNodeId
       });
     }
 

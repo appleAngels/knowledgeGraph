@@ -87,7 +87,63 @@ export const knowledgeGraphData = {
     { id: 60, type: 'word', label: 'Milk', definition: 'a white liquid produced by female mammals for feeding their young (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Glass of fresh milk, white liquid, realistic, high quality&image_size=square_hd', sentences: ['Mammals feed their young with milk.', 'Cows produce milk for their calves.', 'Humans drink milk from cows, goats, and other animals.'] },
     { id: 61, type: 'word', label: 'Young', definition: 'being in an early stage of life or growth (adjective)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Young animal babies, cute, realistic, high quality&image_size=square_hd', sentences: ['Mammals care for their young.', 'The young of a dog is called a puppy.', 'Young animals need special care and attention.'] },
     { id: 62, type: 'word', label: 'Feed', definition: 'to give food to; supply with nourishment (verb)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mother feeding baby, nurturing, realistic, high quality&image_size=square_hd', sentences: ['Mammals feed their young with milk.', 'Farmers feed their animals every day.', 'Parents feed their children nutritious food.'] },
-    { id: 63, type: 'word', label: 'Human', definition: 'a member of the primate species Homo sapiens, characterized by bipedalism and large brains (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Diverse group of humans, realistic, high quality&image_size=square_hd', sentences: ['Humans are mammals.', 'Humans have the ability to think and reason.', 'Humans live in communities and build societies.'] }
+    { id: 63, type: 'word', label: 'Human', definition: 'a member of the primate species Homo sapiens, characterized by bipedalism and large brains (noun)', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Diverse group of humans, realistic, high quality&image_size=square_hd', sentences: ['Humans are mammals.', 'Humans have the ability to think and reason.', 'Humans live in communities and build societies.'] },
+    
+    // RAZ AA Level - The Market
+    { id: 64, type: 'word', label: 'Market', definition: 'A place where people buy and sell goods, especially food and household items.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Busy farmers market with people, stalls, and fresh produce, realistic, high quality&image_size=square_hd', sentences: ['I go to the market.', 'The market has many stalls.'] },
+    { id: 65, type: 'word', label: 'farmers', definition: 'People who grow crops and raise animals for food.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Friendly farmers at market selling produce, realistic, high quality&image_size=square_hd', sentences: ['The farmers sell vegetables.'] },
+    { id: 66, type: 'word', label: 'tents', definition: 'Portable shelters made of fabric supported by poles and ropes.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Colorful market tents in a park, realistic, high quality&image_size=square_hd', sentences: ['The market has colorful tents.'] },
+    { id: 67, type: 'word', label: 'vegetables', definition: 'Plants or parts of plants that are used as food, such as carrots, potatoes, and beans.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Fresh vegetables in wooden baskets at market, realistic, high quality&image_size=square_hd', sentences: ['I buy vegetables at the market.'] },
+    { id: 68, type: 'word', label: 'fruits', definition: 'The sweet and fleshy product of a tree or other plant that contains seed and can be eaten as food.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Assorted fresh fruits at market stall, realistic, high quality&image_size=square_hd', sentences: ['The market sells ripe fruits.'] },
+    { id: 69, type: 'word', label: 'flowers', definition: 'The seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels) surrounded by bright petals and sepals.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Beautiful colorful flowers at market, realistic, high quality&image_size=square_hd', sentences: ['I smell the flowers.'] },
+    { id: 70, type: 'word', label: 'jam', definition: 'A sweet spread made by cooking fruit with sugar until it thickens.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Jars of homemade jam at market stall, realistic, high quality&image_size=square_hd', sentences: ['I like strawberry jam.'] },
+    { id: 71, type: 'word', label: 'cookies', definition: 'Small sweet baked cakes, typically round, flat, and crisp.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Fresh baked cookies at market, realistic, high quality&image_size=square_hd', sentences: ['The cookies are delicious.'] },
+    
+    // RAZ AA Level - The Movie
+    { id: 72, type: 'word', label: 'Movie', definition: 'A story or event recorded by a camera as a set of moving images and shown in a cinema or on television.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Movie theater with screen showing film, realistic, high quality&image_size=square_hd', sentences: ['I watch a movie.'] },
+    { id: 73, type: 'word', label: 'line', definition: 'A number of people standing one behind the other, waiting for something.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=People waiting in line at movie theater ticket counter, realistic, high quality&image_size=square_hd', sentences: ['We wait in line.'] },
+    { id: 74, type: 'word', label: 'tickets', definition: 'Pieces of paper that give you the right to enter a place or travel somewhere.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Movie tickets with colorful design, realistic, high quality&image_size=square_hd', sentences: ['I buy tickets.'] },
+    { id: 75, type: 'word', label: 'doors', definition: 'Movable barriers used to close off an entrance, exit, or passage.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Movie theater doors with stars on carpet, realistic, high quality&image_size=square_hd', sentences: ['We go through the doors.'] },
+    { id: 76, type: 'word', label: 'seats', definition: 'Furniture with a raised surface for sitting on, typically having a back and often armrests.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Movie theater seats with people sitting, realistic, high quality&image_size=square_hd', sentences: ['We sit in seats.'] },
+    { id: 77, type: 'word', label: 'popcorn', definition: 'Corn that expands from the kernel and puffs up when heated, eaten as a snack.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Fresh popcorn in red and white bucket, realistic, high quality&image_size=square_hd', sentences: ['I eat popcorn.'] },
+    { id: 78, type: 'word', label: 'screen', definition: 'A flat panel or area on an electronic device where images and text are displayed.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Movie screen showing film, realistic, high quality&image_size=square_hd', sentences: ['The movie is on the screen.'] },
+    { id: 79, type: 'word', label: 'dark', definition: 'With little or no light.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Dark movie theater with screen glowing, realistic, high quality&image_size=square_hd', sentences: ['The theater is dark.'] },
+    
+    // RAZ AA Level - Mom
+    { id: 80, type: 'word', label: 'Mom', definition: 'A mother; a female parent.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Warm and loving mother, realistic, high quality&image_size=square_hd', sentences: ['I love my mom.'] },
+    { id: 81, type: 'word', label: 'voice', definition: 'The sound produced by vibrations of the vocal cords.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom waking up child with gentle voice, realistic, high quality&image_size=square_hd', sentences: ['I hear her voice.'] },
+    { id: 82, type: 'word', label: 'help', definition: 'To make it easier for someone to do something by offering one\'s services or resources.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom helping child eat breakfast, realistic, high quality&image_size=square_hd', sentences: ['She gives me help.'] },
+    { id: 83, type: 'word', label: 'hug', definition: 'To squeeze (someone) tightly in one\'s arms, typically to express affection.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom hugging child goodbye, realistic, high quality&image_size=square_hd', sentences: ['She gives me a hug.'] },
+    { id: 84, type: 'word', label: 'wave', definition: 'To move one\'s hand to and fro in greeting or farewell.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom waving goodbye to child, realistic, high quality&image_size=square_hd', sentences: ['I see her wave.'] },
+    { id: 85, type: 'word', label: 'smile', definition: 'A pleased, kind, or amused facial expression, typically with the corners of the mouth turned up.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom smiling at family dinner, realistic, high quality&image_size=square_hd', sentences: ['I love her smile.'] },
+    { id: 86, type: 'word', label: 'eyes', definition: 'Organs of sight.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom with warm, loving eyes, realistic, high quality&image_size=square_hd', sentences: ['I look into her eyes.'] },
+    { id: 87, type: 'word', label: 'tuck', definition: 'To make (someone) comfortable in bed by pulling the covers up around them.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom tucking child into bed, realistic, high quality&image_size=square_hd', sentences: ['She gives me a tuck.'] },
+    { id: 88, type: 'word', label: 'love', definition: 'An intense feeling of deep affection.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Mom kissing child goodnight, realistic, high quality&image_size=square_hd', sentences: ['I feel her love.'] },
+    
+    // RAZ AA Level - The Zoo
+    { id: 89, type: 'word', label: 'Zoo', definition: 'A place where wild animals are kept for public viewing and conservation.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Busy zoo with animals and visitors, realistic, high quality&image_size=square_hd', sentences: ['I go to the zoo.'] },
+    { id: 90, type: 'word', label: 'lion', definition: 'A large cat with a mane, living in Africa and Asia.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Male lion with mane, realistic, high quality&image_size=square_hd', sentences: ['The lion is big.'] },
+    { id: 91, type: 'word', label: 'tiger', definition: 'A large cat with stripes, living in Asia.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Tiger with stripes, realistic, high quality&image_size=square_hd', sentences: ['The tiger has stripes.'] },
+    { id: 92, type: 'word', label: 'bear', definition: 'A large mammal with thick fur.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Black bear, realistic, high quality&image_size=square_hd', sentences: ['The bear is strong.'] },
+    { id: 93, type: 'word', label: 'wolf', definition: 'A wild dog with a sharp sense of smell.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Wolf, realistic, high quality&image_size=square_hd', sentences: ['The wolf howls.'] },
+    { id: 94, type: 'word', label: 'ostrich', definition: 'A large flightless bird from Africa.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Ostrich with long neck and legs, realistic, high quality&image_size=square_hd', sentences: ['The ostrich has a long neck.'] },
+    { id: 95, type: 'word', label: 'monkey', definition: 'A primate with a tail, living in trees.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Monkey sitting, realistic, high quality&image_size=square_hd', sentences: ['The monkey climbs trees.'] },
+    { id: 96, type: 'word', label: 'snake', definition: 'A long, legless reptile.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Snake, realistic, high quality&image_size=square_hd', sentences: ['The snake is long.'] },
+    { id: 97, type: 'word', label: 'zebra', definition: 'A horse-like animal with black and white stripes.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Zebra with black and white stripes, realistic, high quality&image_size=square_hd', sentences: ['The zebra has stripes.'] },
+    
+    // Colors
+    { id: 98, type: 'word', label: 'Color', definition: 'The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Rainbow with all colors, realistic, high quality&image_size=square_hd', sentences: ['Color makes the world beautiful.'] },
+    { id: 99, type: 'word', label: 'Blue', definition: 'A color intermediate between green and violet, as of the sky or sea.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue sky, realistic, high quality&image_size=square_hd', sentences: ['The sky is blue.'] },
+    
+    // Blue objects
+    { id: 100, type: 'word', label: 'sky', definition: 'The region of the atmosphere and outer space seen from the earth.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue sky with clouds, realistic, high quality&image_size=square_hd', sentences: ['The blue sky is beautiful.'] },
+    { id: 101, type: 'word', label: 'helmet', definition: 'A hard or padded protective hat, especially worn by cyclists and construction workers.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue bicycle helmet, realistic, high quality&image_size=square_hd', sentences: ['He wears a blue helmet.'] },
+    { id: 102, type: 'word', label: 'bike', definition: 'A bicycle.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue bicycle, realistic, high quality&image_size=square_hd', sentences: ['I ride a blue bike.'] },
+    { id: 103, type: 'word', label: 'bottle', definition: 'A glass or plastic container with a narrow neck, used for storing drinks or other liquids.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue water bottle, realistic, high quality&image_size=square_hd', sentences: ['She drinks from a blue bottle.'] },
+    { id: 104, type: 'word', label: 'bench', definition: 'A long seat for several people, typically made of wood or metal and fixed in place.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue bench in garden, realistic, high quality&image_size=square_hd', sentences: ['We sit on a blue bench.'] },
+    { id: 105, type: 'word', label: 'swing', definition: 'A seat suspended by ropes or chains, on which someone may sit and swing back and forth.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue swing, realistic, high quality&image_size=square_hd', sentences: ['I play on a blue swing.'] },
+    { id: 106, type: 'word', label: 'slide', definition: 'A smooth sloping surface, especially one for children to slide down for amusement.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Blue slide in playground, realistic, high quality&image_size=square_hd', sentences: ['The blue slide is fun.'] },
+    { id: 107, type: 'word', label: 'playground', definition: 'An outdoor area provided for children to play in, especially at a school or public park.', image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=Playground with blue equipment, realistic, high quality&image_size=square_hd', sentences: ['The playground has blue equipment.'] }
   ],
   links: [
     // RAZ AA Level - Lesson 1: At the Lake relationships
@@ -241,7 +297,82 @@ export const knowledgeGraphData = {
     { source: 11, target: 58, relationship: 'has' },
     { source: 27, target: 57, relationship: 'has' },
     { source: 27, target: 58, relationship: 'has' },
-    { source: 39, target: 60, relationship: 'produces' }
+    { source: 39, target: 60, relationship: 'produces' },
+    
+    // Market relationships
+    { source: 64, target: 65, relationship: 'has' },
+    { source: 64, target: 66, relationship: 'has' },
+    { source: 64, target: 67, relationship: 'has' },
+    { source: 64, target: 68, relationship: 'has' },
+    { source: 64, target: 69, relationship: 'has' },
+    { source: 64, target: 70, relationship: 'has' },
+    { source: 64, target: 71, relationship: 'has' },
+    { source: 65, target: 63, relationship: 'is a type of' },
+    { source: 67, target: 19, relationship: 'is a type of' },
+    { source: 68, target: 18, relationship: 'is a type of' },
+    { source: 69, target: 19, relationship: 'is a type of' },
+    { source: 70, target: 33, relationship: 'is a type of' },
+    { source: 71, target: 33, relationship: 'is a type of' },
+    
+    // Movie relationships
+    { source: 72, target: 73, relationship: 'has' },
+    { source: 72, target: 74, relationship: 'has' },
+    { source: 72, target: 75, relationship: 'has' },
+    { source: 72, target: 76, relationship: 'has' },
+    { source: 72, target: 77, relationship: 'has' },
+    { source: 72, target: 78, relationship: 'has' },
+    { source: 72, target: 79, relationship: 'has' },
+    { source: 77, target: 33, relationship: 'is a type of' },
+    
+    // Mom relationships
+    { source: 80, target: 81, relationship: 'has' },
+    { source: 80, target: 82, relationship: 'gives' },
+    { source: 80, target: 83, relationship: 'gives' },
+    { source: 80, target: 84, relationship: 'does' },
+    { source: 80, target: 85, relationship: 'has' },
+    { source: 80, target: 86, relationship: 'has' },
+    { source: 80, target: 87, relationship: 'does' },
+    { source: 80, target: 88, relationship: 'shows' },
+    { source: 80, target: 63, relationship: 'is a type of' },
+    { source: 80, target: 55, relationship: 'is a type of' },
+    
+    // Zoo relationships
+    { source: 89, target: 90, relationship: 'has' },
+    { source: 89, target: 91, relationship: 'has' },
+    { source: 89, target: 92, relationship: 'has' },
+    { source: 89, target: 93, relationship: 'has' },
+    { source: 89, target: 94, relationship: 'has' },
+    { source: 89, target: 95, relationship: 'has' },
+    { source: 89, target: 96, relationship: 'has' },
+    { source: 89, target: 97, relationship: 'has' },
+    { source: 90, target: 26, relationship: 'is a type of' },
+    { source: 91, target: 26, relationship: 'is a type of' },
+    { source: 92, target: 26, relationship: 'is a type of' },
+    { source: 93, target: 26, relationship: 'is a type of' },
+    { source: 94, target: 26, relationship: 'is a type of' },
+    { source: 95, target: 26, relationship: 'is a type of' },
+    { source: 96, target: 26, relationship: 'is a type of' },
+    { source: 97, target: 26, relationship: 'is a type of' },
+    { source: 90, target: 55, relationship: 'is a type of' },
+    { source: 91, target: 55, relationship: 'is a type of' },
+    { source: 92, target: 55, relationship: 'is a type of' },
+    { source: 93, target: 55, relationship: 'is a type of' },
+    { source: 95, target: 55, relationship: 'is a type of' },
+    { source: 97, target: 55, relationship: 'is a type of' },
+    { source: 94, target: 12, relationship: 'is a type of' },
+    { source: 90, target: 28, relationship: 'is a type of' },
+    { source: 47, target: 89, relationship: 'is at' },
+    
+    // Color relationships
+    { source: 99, target: 98, relationship: 'is a type of' },
+    { source: 100, target: 99, relationship: 'is' },
+    { source: 101, target: 99, relationship: 'is' },
+    { source: 102, target: 99, relationship: 'is' },
+    { source: 103, target: 99, relationship: 'is' },
+    { source: 104, target: 99, relationship: 'is' },
+    { source: 105, target: 99, relationship: 'is' },
+    { source: 106, target: 99, relationship: 'is' },
+    { source: 107, target: 99, relationship: 'is' }
   ]
 };
 
